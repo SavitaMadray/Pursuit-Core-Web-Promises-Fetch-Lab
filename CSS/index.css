@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  background-image: url("https://cdn.pixabay.com/photo/2015/08/04/22/00/floral-875276_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+h1,
+h2 {
+  text-align: center;
+  background-color: rgba(149, 190, 195, 0.829);
+  width: 30%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+}
+
+#jokeCardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#jokeCard {
+  background-color: rgba(13, 248, 37, 0.287);
+  text-align: center;
+  box-shadow: 30px 25px 55px black;
+  background-color: rgba(41, 138, 133, 0.472);
+  border-radius: 5px;
+  width: 80%;
+  justify-items: center;
+}
+
+#manyJokesContainer {
+  text-align: center;
+  box-shadow: 30px 25px 55px black;
+  background-color: rgba(41, 138, 133, 0.472);
+  border-radius: 5px;
+  width: 80%;
+}
+
+#manyJokes {
+  display: flex;
+  justify-content: center;
+}
+#jkByType {
+  display: flex;
+  justify-content: center;
+}
+
+#jkeCard {
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 30px 25px 55px black;
+  background-color: rgba(41, 138, 133, 0.472);
+  border-radius: 5px;
+  width: 80%;
+}
+
+p {
+  font-size: 1.25em;
+  font-weight: 500;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+label {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
