@@ -4,28 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jokes API</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Open+Sans:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="styleSheet" href="CSS/index.css" />
+
     <script src="JS/index.js"></script>
   </head>
   <body>
-    <h1>Jokes</h1>
-    <h2 id="type">Joke By Type</h2>
-    <label>Choose Type of Joke</label>
-    <select>
-      <option value="type">Choose a type</option>
-      <option value="general">General</option>
-      <option value="random">Random</option>
-      <option value="programming">Programing</option>
-    </select>
-    <button id="typeBtn">Submit</button>
-
+    <header>
+      <h1>Jokes</h1>
+    </header>
+    <div class="title">
+      <h2>Joke By Type</h2>
+    </div>
+    <div id="label">
+      <label>Choose Type of Joke</label>
+      <select>
+        <option value="type">Choose a type</option>
+        <option value="general">General</option>
+        <option value="random">Random</option>
+        <option value="programming">Programing</option>
+      </select>
+      <button id="typeBtn">Submit</button>
+    </div>
     <div id="jkByType"></div>
-    <h2>Single Joke</h2>
-    <button id="random">Random Joke</button>
+
+    <div class="title">
+      <h2>Single Joke</h2>
+    </div>
+    <div class="title">
+      <button id="random">Random Joke</button>
+    </div>
     <div id="jokeCardContainer"></div>
 
-    <h2>10 Jokes</h2>
-    <button id="many">10 Jokes</button>
+    <div class="title">
+      <h2>10 Jokes</h2>
+    </div>
+    <div class="title">
+      <button id="many">10 Jokes</button>
+    </div>
     <div id="manyJokes"></div>
   </body>
 </html>

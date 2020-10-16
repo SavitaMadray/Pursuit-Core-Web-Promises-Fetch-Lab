@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   clickForRandom();
   clickForMany();
   clickForJkByType();
+  loadRandomJoke();
 });
 
 const clickForRandom = () => {

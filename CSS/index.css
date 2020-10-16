@@ -7,13 +7,29 @@ body {
   color: white;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+}
+
 h1,
 h2 {
   text-align: center;
-  background-color: rgba(149, 190, 195, 0.829);
+  background-color: rgba(161, 188, 192, 0.575);
   width: 30%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 600;
+  border-radius: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 5px;
+  box-shadow: 15px 5px 25px rgb(10, 9, 9);
+}
+
+h1 {
+  font-size: 3.4em;
+}
+
+#type {
+  display: flex;
+  justify-self: center;
 }
 
 #jokeCardContainer {
@@ -43,11 +59,21 @@ h2 {
   display: flex;
   justify-content: center;
 }
-#jkByType {
+
+.title {
   display: flex;
   justify-content: center;
 }
+#jkByType {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
 
+#label {
+  display: flex;
+  justify-content: center;
+}
 #jkeCard {
   margin-top: 20px;
   text-align: center;
@@ -60,11 +86,12 @@ h2 {
 p {
   font-size: 1.25em;
   font-weight: 500;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 label {
+  font-size: 1.25em;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-right: 6px;
 }
